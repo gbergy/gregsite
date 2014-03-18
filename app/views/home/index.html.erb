@@ -1,0 +1,9 @@
+<h1>Rails Baby!</h1>
+
+<%= link_to "Hello World", tweets_path %> 
+
+<% for i in 0..10 %>
+<%= render "transaction", transaction_id:i %>
+<% end %>
+
+<%= render "message", title: "Your Message", body: "This is really important" %> 
